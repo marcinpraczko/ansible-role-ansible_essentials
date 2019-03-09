@@ -1,0 +1,6 @@
+---
+# defaults file for osl-ansible-essentials
+
+packages:
+  ansible_essentials:
+    - libsemanage-python

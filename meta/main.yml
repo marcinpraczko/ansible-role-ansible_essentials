@@ -1,0 +1,23 @@
+---
+
+dependencies: []
+
+galaxy_info:
+  role_name: "ansible_essentials"
+  author: "Marcin Praczko"
+  description: "This role is a helper for installing all ansible essentials for others modules"
+  company: "Open Solutions Lab, LLC"
+  license: "license (BSD, MIT)"
+  min_ansible_version: 2.0
+
+  platforms:
+    - name: EL
+      versions:
+        - 7
+
+  categories:
+    - system
+
+  galaxy_tags:
+    - ansible
+    - packages

@@ -1,0 +1,6 @@
+---
+
+- name: "Install required python modules"
+  yum:
+    name: "{{ packages.ansible_essentials }}"
+    state: installed
